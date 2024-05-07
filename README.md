@@ -24,20 +24,19 @@ E -> |E1]E2/E3]...|E26| R3
 E -> [E1|E2|E3|...|E26] -> {A|B|C|...]Z|alb]c]...|z]} R4
 
 Note the following additional conditions in the above program:
-e Words in capital letters are Keywords
-e Words in small letters are Identifiers. Words in single letters from A — Z and a to z are also Identifiers
-e +,-,/,* are Operators
-e Equals =, and semi colon ; are Symbols
-e Any string/line must contain: Keywords, Identifiers, Operators, or Symbols
-e Symbols such as: %,$, &, <, >,; not allowed and would give Semantic error
-e Two operators must not be combined such as: +* not allowed and would give Syntax error,
-same with other operators that are combined, for example -/, */, *+
-e Semi colon ; at the end of a line not allowed and would give Syntax error
-e Numbers 0,1 to 9 are not allowed and would give Syntax error
-e The acceptable keywords are: INTEGER, ASSIGN, READ, WRITE, START, STOP.
-e Misspelling in the keywords such as: WRITEE not allowed and would give Lexical error
-e Any other character on the keyboard different from all the above will give Syntax error.
-e Note that some of the inputs have errors, This is intentional
+- Words in capital letters are Keywords
+- Words in small letters are Identifiers. Words in single letters from A — Z and a to z are also Identifiers
+- +,-,/,* are Operators
+- Equals =, and semi colon ; are Symbols
+- Any string/line must contain: Keywords, Identifiers, Operators, or Symbols
+- Symbols such as: %,$, &, <, >,; not allowed and would give Semantic error
+- Two operators must not be combined such as: +* not allowed and would give Syntax error, same with other operators that are combined, for example -/, */, *+
+- Semi colon ; at the end of a line not allowed and would give Syntax error
+- Numbers 0,1 to 9 are not allowed and would give Syntax error
+- The acceptable keywords are: INTEGER, ASSIGN, READ, WRITE, START, STOP.
+- Misspelling in the keywords such as: WRITEE not allowed and would give Lexical error
+- Any other character on the keyboard different from all the above will give Syntax error.
+- Note that some of the inputs have errors, This is intentional
 
 
 (Question 1 Branch) contains a Java program that will go through the following stages of compiler to translate the above program (iteratively) - line by line.
