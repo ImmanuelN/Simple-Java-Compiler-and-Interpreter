@@ -5,17 +5,17 @@ This Repo contains a simple Java Compiler and Interpreter that takes in strings 
 The Program below is written in Java to check for errors, evaluate and print out P and R.
 
 #Inputs:
-    START
-    INTEGER M, N, K, P, R, H, |, g, k, m
-    READ M, N, K
-    ASSIGN N = M -/ K
-    READ g, H, |, m
-    temp = <s%*h -j/w-d+*$&;
-    P = g/H-l+m*N/k
-    R= M+N/K
-    WRITE P
-    WRITEE R;
-    STOP
+      - START
+      - INTEGER M N K P R H | g k m
+      - READ M N K
+      - ASSIGN N = M -/ K
+      - READ g H I m
+      - temp = < s % * h - j / w - d + * $ & ;
+      - P = g / H - l + m * N / k
+      - R = M + N / K
+      - WRITE P
+      - WRITEE R;
+      - STOP
 
 The Grammar and Production rules:
 E -> E Rule1 (R1)
